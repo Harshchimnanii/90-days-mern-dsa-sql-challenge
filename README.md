@@ -1,7 +1,7 @@
 # 🚀 90 Days MERN + DSA + SQL Challenge
 
 Goal: Crack placement with consistent daily practice.
-command to push : "git add . && git commit -m "update" && git push"
+command to push : "git add .; git commit -m "Type the message"; git push"
 
 ## Daily Plan
 - DSA: 1–2 problems
