@@ -9,7 +9,7 @@ command to push : "git add .; git commit -m "Type the message"; git push"
 - SQL: 3–5 queries
 
 ## Tech Stack
-- DSA: Java / C++
+- DSA: Java 
 - MERN: MongoDB, Express, React, Node
 - SQL: MySQL
 
