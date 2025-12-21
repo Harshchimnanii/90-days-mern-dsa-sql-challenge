@@ -15,4 +15,5 @@ command to push : "git add .; git commit -m "Type the message"; git push"
 
 ## Progress
 - Day 01 ✅
-- Day 02 ⏳
+- Day 02 ✅
+- Day 03 ⏳
