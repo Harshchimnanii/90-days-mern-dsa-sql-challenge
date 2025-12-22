@@ -61,3 +61,5 @@
 -- ROLLBACK – undo changes
 
 -- SAVEPOINT – set rollback point
+
+SQL = structured query language 
