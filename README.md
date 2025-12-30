@@ -23,5 +23,6 @@ command to push : "git add .; git commit -m "Type the message"; git push"
 - Day 07 ⌛ link = "https://www.notion.so/26-12-2025-TODO-2d603b8e0cfc808fbc3cd05af919244f?source=copy_link"
 - Day 08 ⌛ link = "https://www.notion.so/27-12-2025-TODO-2d603b8e0cfc8029b8b9d9ae31d5dda4?source=copy_link"
 - Day 09 ⌛ link = "https://www.notion.so/28-12-2025-TODO-2d603b8e0cfc802998d6e6254ea12f80?source=copy_link"
-- Day 10 ⌛ link = ""
+- Day 10 ⌛ link = "https://www.notion.so/29-12-2025-TODO-2d603b8e0cfc80c5aca7fff08d45ff39?source=copy_link"
+- DAY 11 ⌛ link = ""
 
