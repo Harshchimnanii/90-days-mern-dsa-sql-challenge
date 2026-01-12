@@ -7,7 +7,6 @@ public class checkPalindromeString {
         System.out.println(isPalindrome(s));
         }
     static boolean isPalindrome(String s) {
-        StringBuilder res = new StringBuilder();
        for(int i = 0 ; i<s.length()/2 ; i++) {
         char s1 = s.charAt(i);
         char s2 = s.charAt(s.length()-1-i);
