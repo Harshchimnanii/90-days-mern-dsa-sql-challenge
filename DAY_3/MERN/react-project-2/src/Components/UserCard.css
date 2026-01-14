@@ -1,0 +1,14 @@
+.user-container{
+    height: fit-content;
+    width: fit-content;
+    background-color: brown;
+    margin : 10px;
+    padding: 10px;
+    color: black;
+    font-size: 1rem;
+    
+}
+#user-image{
+    height: 50%;
+    width: 50%;
+}
