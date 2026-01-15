@@ -1,31 +1,18 @@
--- Day 27 – Advanced SQL (Multi-level Aggregation)
+-- Day 27: Advanced Joins & Ranking
+-- Goal: 15 LPA companies love these specific patterns
 
--- Department-wise average salary,
--- then employees earning above that average
-SELECT e.name, e.salary, e.department_id
-FROM employees e
-WHERE e.salary > (
-    SELECT AVG(salary)
-    FROM employees
-    WHERE department_id = e.department_id
-);
+-- 1. Find employees earning more than their managers (Self-Join)
+-- SELECT e.name AS Employee
+-- FROM Employee AS e
+-- JOIN Employee AS m ON e.managerId = m.id
+-- WHERE e.salary > m.salary;
 
--- Top 3 salaries overall (without LIMIT)
-SELECT salary
-FROM (
-    SELECT salary,
-           DENSE_RANK() OVER (ORDER BY salary DESC) rnk
-    FROM employees
-) t
-WHERE rnk <= 3;
+-- -- 2. Find the 2nd Highest Salary (Without using LIMIT)
+-- SELECT MAX(salary) 
+-- FROM Employee 
+-- WHERE salary < (SELECT MAX(salary) FROM Employee);
 
--- Departments having more than 5 employees
-SELECT department_id, COUNT(*) AS emp_count
-FROM employees
-GROUP BY department_id
-HAVING COUNT(*) > 5;
-
--- Notes:
--- Subqueries help isolate aggregation
--- HAVING filters aggregated data
--- Index on department_id and salary improves performance
+-- -- 3. Department-wise top salary
+-- SELECT DeptName, MAX(Salary)
+-- FROM Employees
+-- GROUP BY DeptName;

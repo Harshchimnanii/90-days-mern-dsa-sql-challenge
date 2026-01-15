@@ -6,10 +6,6 @@ function App() {
   return (
     <div className="container">
       <UserCard />
-      
-      <UserCard />
-      
-      <UserCard />
     </div>
   )
 }

@@ -1,6 +1,6 @@
 .user-container{
-    height: fit-content;
-    width: fit-content;
+    height: 200px;
+    width: 200px;
     background-color: brown;
     margin : 10px;
     padding: 10px;
