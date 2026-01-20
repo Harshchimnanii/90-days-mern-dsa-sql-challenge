@@ -1,4 +1,4 @@
-ou’ve been following Hitesh (Chai aur Code). Today, you verify your professional setup.
+you’ve been following Hitesh (Chai aur Code). Today, you verify your professional setup.
 
 [ ] Structure Check: Do you have controllers, routes, and models folders?
 
