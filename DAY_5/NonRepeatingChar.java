@@ -1,5 +1,5 @@
 package DAY_5;
-
+//  BruteForceApproach 
 public class NonRepeatingChar {
     public static void main(String[] args){
        String s = "leetcode";
